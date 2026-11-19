@@ -244,4 +244,6 @@ CREATE INDEX idx_underwriting_property ON public.underwriting_scenarios(property
 CREATE INDEX idx_jobs_org ON public.research_jobs(organization_id);
 CREATE INDEX idx_approvals_org ON public.approval_requests(organization_id);
 CREATE INDEX idx_audit_org ON public.audit_log(organization_id);
+REVOKE ALL ON FUNCTION public.create_my_organization(text) FROM anon;
+REVOKE ALL ON FUNCTION public.create_my_organization(text) FROM PUBLIC;
 COMMIT;
