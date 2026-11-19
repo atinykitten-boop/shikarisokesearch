@@ -1,0 +1,9 @@
+{
+  "name": "shikaris\u00f8kesearch",
+  "short_name": "Shikari Search",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b131c",
+  "theme_color": "#101c27",
+  "description": "Washington-first real estate intelligence"
+}
